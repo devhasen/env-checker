@@ -1,0 +1,9 @@
+{
+  "name": "env-checker",
+  "version": "1.0.0",
+  "description": "Validate required env vars against a .env.example",
+  "main": "dist/index.js",
+  "bin": { "envcheck": "dist/index.js" },
+  "scripts": { "build": "tsc", "start": "node dist/index.js" },
+  "devDependencies": { "typescript": "^5.0.0", "@types/node": "^20.0.0" }
+}
